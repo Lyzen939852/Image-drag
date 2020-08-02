@@ -1,0 +1,32 @@
+body{
+    background-color: darksalmon;
+}
+
+.empty{
+    display: inline-block;/* 排成一行 */   
+    height: 160px;
+    width: 160px;
+    background-color: #fff;
+    margin: 5px;
+    border:3px solid salmon;
+}
+
+.fill{
+    background-image: url("https://source.unsplash.com/random/150×150"); 
+    position: relative; /* 绝对位置 */
+    height: 150px;
+    width: 150px;
+    top:5px;
+    left:5px;
+    cursor: pointer;
+}
+
+.hold{
+    border:solid 5px #ccc;
+
+}
+
+.hovered{
+    background: #f4f4f4;
+    border-style: dashed;
+}
